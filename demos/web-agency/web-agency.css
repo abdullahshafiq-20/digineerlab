@@ -5,15 +5,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap');
 /* variable */
 :root {     
-    --base-color: #BEFF01;
-    --medium-gray:#6F7071;
-    --dark-gray:#1C1D1F; 
+    --base-color: #DDA853;
+    --medium-gray:#A6CDC6;
+    --dark-gray:#16404D; 
     --alt-font: 'Inter', sans-serif;
     --primary-font: 'Inter', sans-serif;
+    --background-color: #FBF5DD;
 }
 body {
     font-size: 17px;
     line-height: 32px;
+    background-color: var(--background-color);
+    color: var(--dark-gray);
 }
 .top-space-margin {
     margin-top: 120px;
@@ -24,7 +27,7 @@ body {
     font-size: 18px;
 }
 header .navbar-brand img {
-    max-height:56px;
+    max-height: 66px;
 }
 header .btn.btn-switch-text.btn-medium > span {
     padding: 11px 30px;
@@ -41,7 +44,7 @@ header .btn.btn-switch-text.btn-medium > span {
 }
 /* letter spacing */
 .bg-base-color-transparent {
-    background-color: rgba(204, 255, 0,0.9);
+    background-color: rgba(221, 168, 83, 0.9);
 }
 /* banner title */
 .banner-title {
@@ -65,7 +68,7 @@ header .btn.btn-switch-text.btn-medium > span {
 }
 /* bg color */
 .bg-sherpa-blue {
-    background-color: #333436;
+    background-color: var(--dark-gray);
 }
 /* page title */
 .page-title-extra-large h1 {
@@ -95,8 +98,10 @@ header .btn.btn-switch-text.btn-medium > span {
 }
 .team-style-08 figure figcaption .social-icon a {
     background-color: var(--base-color);
+    color: var(--dark-gray);
 }
 .team-style-08 figure figcaption .social-icon a:hover {
+    background-color: var(--medium-gray);
     color: var(--dark-gray);
 }
 /* blog comment */
@@ -110,7 +115,8 @@ header .btn.btn-switch-text.btn-medium > span {
 }
 /* tag */
 .tag-cloud a {
-    background-color: var(--white);
+    background-color: var(--medium-gray);
+    color: var(--dark-gray);
 }
 /* portfolio-image */
 .portfolio-simple .grid-item .portfolio-image img {
@@ -154,7 +160,7 @@ header .btn.btn-switch-text.btn-medium > span {
 }
 /* footer */
 footer .footer-logo img {
-    max-height: 56px;
+    max-height: 66px;
 }
 footer .nav-link {
     color:  var(--dark-gray);
